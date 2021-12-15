@@ -1,0 +1,725 @@
+{
+    "lock_version": 17,
+    "title": "Kitchen Sink Resource",
+    "publish": true,
+    "restrictions": false,
+    "repository_processing_note": "repository processing note.  internal only.",
+    "ead_id": "EAD_ID_guaraneteed_to_be_unique_in_each_repo",
+    "ead_location": "Where we store the Handle link",
+    "finding_aid_title": "Finding aid title (variation on collection title)",
+    "finding_aid_filing_title": "Finding aid filling title (you can sort with this one... e.g. Sink, Kitchen)",
+    "finding_aid_date": "2020 March",
+    "finding_aid_author": "Finding aid author (just text)",
+    "finding_aid_language": "English",
+    "finding_aid_sponsor": "Sponsor statement",
+    "finding_aid_edition_statement": "Edition statement",
+    "finding_aid_series_statement": "Series statement",
+    "finding_aid_note": "Finding aid note.",
+    "created_by": "mc2343",
+    "last_modified_by": "mc2343",
+    "create_time": "2020-03-31T18:35:48Z",
+    "system_mtime": "2020-03-31T19:32:47Z",
+    "user_mtime": "2020-03-31T19:32:47Z",
+    "suppressed": false,
+    "finding_aid_subtitle": "Finding aid subtitle",
+    "id_0": "ks 100",
+    "language": "eng",
+    "level": "collection",
+    "finding_aid_description_rules": "dacs",
+    "finding_aid_status": "completed",
+    "jsonmodel_type": "resource",
+    "external_ids": [],
+    "subjects": [
+        {"ref": "/subjects/32898"},
+        {"ref": "/subjects/28863"}
+    ],
+    "linked_events": [],
+    "extents": [
+        {
+            "lock_version": 0,
+            "number": "10",
+            "container_summary": "(10 boxes)",
+            "created_by": "mc2343",
+            "last_modified_by": "mc2343",
+            "create_time": "2020-03-31T19:32:55Z",
+            "system_mtime": "2020-03-31T19:32:55Z",
+            "user_mtime": "2020-03-31T19:32:55Z",
+            "portion": "whole",
+            "extent_type": "Linear Feet",
+            "jsonmodel_type": "extent"
+        },
+        {
+            "lock_version": 0,
+            "number": "3",
+            "created_by": "mc2343",
+            "last_modified_by": "mc2343",
+            "create_time": "2020-03-31T19:32:55Z",
+            "system_mtime": "2020-03-31T19:32:55Z",
+            "user_mtime": "2020-03-31T19:32:55Z",
+            "portion": "part",
+            "extent_type": "gigabytes",
+            "jsonmodel_type": "extent"
+        }
+    ],
+    "dates": [
+        {
+            "lock_version": 0,
+            "begin": "1900",
+            "end": "1950",
+            "created_by": "mc2343",
+            "last_modified_by": "mc2343",
+            "create_time": "2020-03-31T19:32:55Z",
+            "system_mtime": "2020-03-31T19:32:55Z",
+            "user_mtime": "2020-03-31T19:32:55Z",
+            "date_type": "inclusive",
+            "label": "creation",
+            "jsonmodel_type": "date"
+        },
+        {
+            "lock_version": 0,
+            "expression": "1980s",
+            "begin": "1980",
+            "end": "1989",
+            "created_by": "mc2343",
+            "last_modified_by": "mc2343",
+            "create_time": "2020-03-31T19:32:55Z",
+            "system_mtime": "2020-03-31T19:32:55Z",
+            "user_mtime": "2020-03-31T19:32:55Z",
+            "date_type": "inclusive",
+            "label": "creation",
+            "jsonmodel_type": "date"
+        },
+        {
+            "lock_version": 0,
+            "begin": "1935",
+            "end": "1950",
+            "created_by": "mc2343",
+            "last_modified_by": "mc2343",
+            "create_time": "2020-03-31T19:32:55Z",
+            "system_mtime": "2020-03-31T19:32:55Z",
+            "user_mtime": "2020-03-31T19:32:55Z",
+            "date_type": "bulk",
+            "label": "creation",
+            "jsonmodel_type": "date"
+        }
+    ],
+    "external_documents": [
+        {
+            "lock_version": 0,
+            "title": "Could be there, but can probably ignore these (and these can repeat, like every sub record)",
+            "location": "https://www.google.com/",
+            "publish": true,
+            "created_by": "mc2343",
+            "last_modified_by": "mc2343",
+            "create_time": "2020-03-31T19:32:55Z",
+            "system_mtime": "2020-03-31T19:32:55Z",
+            "user_mtime": "2020-03-31T19:32:55Z",
+            "jsonmodel_type": "external_document"
+        }
+    ],
+    "rights_statements": [
+        {
+            "lock_version": 0,
+            "identifier": "4c0ebc3fe70d5f5ccdea7af5b2c774ba",
+            "created_by": "mc2343",
+            "last_modified_by": "mc2343",
+            "create_time": "2020-03-31T19:32:55Z",
+            "system_mtime": "2020-03-31T19:32:55Z",
+            "user_mtime": "2020-03-31T19:32:55Z",
+            "start_date": "2020-04-01",
+            "end_date": "2020-04-02",
+            "license_terms": "license",
+            "rights_type": "license",
+            "jsonmodel_type": "rights_statement",
+            "external_documents": [],
+            "acts": [
+                {
+                    "start_date": "2020-03-18",
+                    "created_by": "mc2343",
+                    "last_modified_by": "mc2343",
+                    "create_time": "2020-03-31T19:32:55Z",
+                    "system_mtime": "2020-03-31T19:32:55Z",
+                    "user_mtime": "2020-03-31T19:32:55Z",
+                    "act_type": "disseminate",
+                    "restriction": "conditional",
+                    "jsonmodel_type": "rights_statement_act",
+                    "notes": [
+                        {
+                            "jsonmodel_type": "note_rights_statement_act",
+                            "persistent_id": "d0847c0cec4da1c7117fd52b2ccaed69",
+                            "type": "permissions",
+                            "content": ["See what I mean by  complex?"],
+                            "publish": true
+                        }
+                    ]
+                }
+            ],
+            "linked_agents": [
+                {"ref": "/agents/families/1047"}
+            ],
+            "notes": [
+                {
+                    "jsonmodel_type": "note_rights_statement",
+                    "persistent_id": "949fa3f41c9d7ca9c7e26cff2baca46f",
+                    "type": "type_note",
+                    "content": ["Truth is, we won't have these...  but the rights module can be a very powerful / complex way to store rights information."],
+                    "publish": true
+                }
+            ]
+        }
+    ],
+    "linked_agents": [
+        {
+            "role": "creator",
+            "terms": [],
+            "ref": "/agents/families/82"
+        },
+        {
+            "role": "creator",
+            "terms": [],
+            "ref": "/agents/people/95109"
+        },
+        {
+            "role": "source",
+            "terms": [],
+            "ref": "/agents/corporate_entities/6479"
+        },
+        {
+            "role": "subject",
+            "terms": [],
+            "ref": "/agents/families/1364"
+        },
+        {
+            "role": "subject",
+            "terms": [
+                {
+                    "id": 10935,
+                    "lock_version": 0,
+                    "json_schema_version": 1,
+                    "vocab_id": 1,
+                    "term": "20th Century",
+                    "term_type_id": 1274,
+                    "created_by": "aer48",
+                    "last_modified_by": "aer48",
+                    "create_time": "2016-05-18T18:54:04Z",
+                    "system_mtime": "2016-05-18T18:54:04Z",
+                    "user_mtime": "2016-05-18T18:54:04Z",
+                    "x_foreign_key_x": 1820673,
+                    "term_type": "temporal",
+                    "jsonmodel_type": "term",
+                    "uri": "/terms/10935",
+                    "vocabulary": "/vocabularies/1"
+                },
+                {
+                    "id": 119,
+                    "lock_version": 0,
+                    "json_schema_version": 1,
+                    "vocab_id": 1,
+                    "term": "Correspondence",
+                    "term_type_id": 1275,
+                    "created_by": "admin",
+                    "last_modified_by": "admin",
+                    "create_time": "2015-05-19T16:19:44Z",
+                    "system_mtime": "2015-05-19T16:19:44Z",
+                    "user_mtime": "2015-05-19T16:19:44Z",
+                    "x_foreign_key_x": 1820673,
+                    "term_type": "topical",
+                    "jsonmodel_type": "term",
+                    "uri": "/terms/119",
+                    "vocabulary": "/vocabularies/1"
+                }
+            ],
+            "ref": "/agents/corporate_entities/10474"
+        }
+    ],
+    "revision_statements": [
+        {
+            "date": "2020-03-31",
+            "description": "Example(s) added",
+            "created_by": "mc2343",
+            "last_modified_by": "mc2343",
+            "create_time": "2020-03-31T19:32:55Z",
+            "system_mtime": "2020-03-31T19:32:55Z",
+            "user_mtime": "2020-03-31T19:32:55Z",
+            "jsonmodel_type": "revision_statement",
+            "uri": "/revision_statement/56974",
+            "repository": {"ref": "/repositories/17"}
+        },
+        {
+            "date": "2020-03-30",
+            "description": "Container list added",
+            "created_by": "mc2343",
+            "last_modified_by": "mc2343",
+            "create_time": "2020-03-31T19:32:55Z",
+            "system_mtime": "2020-03-31T19:32:55Z",
+            "user_mtime": "2020-03-31T19:32:55Z",
+            "jsonmodel_type": "revision_statement",
+            "uri": "/revision_statement/56975",
+            "repository": {"ref": "/repositories/17"}
+        }
+    ],
+    "instances": [],
+    "deaccessions": [],
+    "related_accessions": [],
+    "classifications": [],
+    "notes": [
+        {
+            "jsonmodel_type": "note_singlepart",
+            "persistent_id": "c20dc1dffc485a0cb5b58afd169cc4d0",
+            "label": "Atypical abstract note",
+            "type": "abstract",
+            "content": [
+                "Abstract note.  This is a simple note in ASpace, since it won't have subnotes.  But it could still have <emph render=\"bold\">mixed content<\/emph>. But in general it shouldn't have it an abstract note.",
+                "Well, it can have multiple content items in ASpace, but in our case it won't."
+            ],
+            "publish": true
+        },
+        {
+            "jsonmodel_type": "note_singlepart",
+            "persistent_id": "250dff640e0dcb45fc27403792c3c93c",
+            "label": "Typical abstract note",
+            "type": "abstract",
+            "content": ["Just a paragraph of plain text."],
+            "publish": true
+        },
+                {
+            "jsonmodel_type": "note_multipart",
+            "persistent_id": "de4d67bca4b5feee6e9658bbeb54db00",
+            "type": "acqinfo",
+            "subnotes": [
+                {
+                    "jsonmodel_type": "note_text",
+                    "content": "Yale Center for British Art, Paul Mellon Collection",
+                    "publish": true
+                },
+                {
+                    "jsonmodel_type": "note_chronology",
+                    "title": "what's required here?",
+                    "items": [
+                        {
+                            "events": []
+                        },
+                        {
+                            "event_date": "date",
+                            "events": [
+                                "e1",
+                                "e2 <title>title<\/title>"
+                            ]
+                        },
+                        {
+                            "events": ["e3"]
+                        }
+                    ],
+                    "publish": true
+                }
+            ],
+            "publish": true
+        },
+        {
+            "jsonmodel_type": "note_multipart",
+            "persistent_id": "78bdb4c2ea48d03317ae325b1004d8c5",
+            "label": "accruals note label (this is a multi-part note)",
+            "type": "accruals",
+            "subnotes": [
+                {
+                    "jsonmodel_type": "note_text",
+                    "content": "Often just text notes, but multi-part notes can be mixtures of multiple text blocks as well as lists.  \n\nAlso, whenever there is one of those double line breaks, we consider that a pargraph.",
+                    "publish": true
+                },
+                {
+                    "jsonmodel_type": "note_text",
+                    "content": "I'm more text, but no double line breaks here.",
+                    "publish": true
+                },
+                {
+                    "jsonmodel_type": "note_orderedlist",
+                    "title": "Ordered list",
+                    "enumeration": "arabic",
+                    "publish": true,
+                    "items": [
+                        "item one",
+                        "item two",
+                        "item three"
+                    ]
+                }
+            ],
+            "publish": true
+        },
+        {
+            "jsonmodel_type": "note_multipart",
+            "persistent_id": "ef4c6ee1be69ee0c27ffd1dd3c5050d1",
+            "type": "arrangement",
+            "subnotes": [
+                {
+                    "jsonmodel_type": "note_text",
+                    "content": "Arrangement note...  no label.  Just one \"paragraph\".",
+                    "publish": true
+                }
+            ],
+            "publish": true
+        },
+        {
+            "jsonmodel_type": "note_bibliography",
+            "persistent_id": "62350c10da19367e895ed3584310eb9d",
+            "label": "bibliography (list of stuff that a researcher might want to know about since it would enhance their understanding of the materials)",
+            "content": ["Should have a list of bibrefs, like so."],
+            "items": [
+                "item 1",
+                "item 2",
+                "item 3",
+                "you get the idea."
+            ],
+            "publish": true
+        },
+        {
+            "jsonmodel_type": "note_multipart",
+            "persistent_id": "0c3a2b5cfb5ee76144e398d408ef910b",
+            "label": "bioghist (a note about the archival creator)",
+            "type": "bioghist",
+            "subnotes": [
+                {
+                    "jsonmodel_type": "note_text",
+                    "content": "Often multiple paragraphs.\n\nOften with mixed-content, epecially when flagging the name of a uniform <title>title<\/title>.\n\nRarely will have something else crazy, like a \"table\".  But those are are, and can be converted to HTML tables almost as is.",
+                    "publish": true
+                }
+            ],
+            "publish": true
+        },
+        {
+            "jsonmodel_type": "note_multipart",
+            "persistent_id": "15569a81cb5a9c197c0a3e29b2c01439",
+            "label": "access note (the one note that can have additional machine-readable data)",
+            "type": "accessrestrict",
+            "rights_restriction": {
+                "begin": "2020-03-01",
+                "end": "2020-03-31",
+                "local_access_restriction_type": [
+                    "RestrictedSpecColl",
+                    "UseSurrogate"
+                ]
+            },
+            "subnotes": [
+                {
+                    "jsonmodel_type": "note_text",
+                    "content": "An access note that has a restriction begin date, restriction end date, and two local access restrictions:",
+                    "publish": true
+                },
+                {
+                    "jsonmodel_type": "note_definedlist",
+                    "publish": true,
+                    "items": [
+                        {
+                            "label": "1 - Donor/university imposed access restriction",
+                            "value": "RestrictedSpecColl"
+                        },
+                        {
+                            "label": "6 - Use Surrogate",
+                            "value": "UseSurrogate"
+                        }
+                    ]
+                }
+            ],
+            "publish": true
+        },
+        {
+            "jsonmodel_type": "note_multipart",
+            "persistent_id": "9bf8d8aa0432f6f38f8e97b97c3ac9bc",
+            "label": "Use note",
+            "type": "userestrict",
+            "rights_restriction": {
+                "begin": "2020-03-01",
+                "end": "2020-03-31",
+                "local_access_restriction_type": []
+            },
+            "subnotes": [
+                {
+                    "jsonmodel_type": "note_text",
+                    "content": "(actually, these can have begin and end dates too)",
+                    "publish": true
+                }
+            ],
+            "publish": true
+        },
+        {
+            "jsonmodel_type": "note_multipart",
+            "persistent_id": "646386f5bdba3ca5cb19cfc4d0f5302c",
+            "type": "dimensions",
+            "subnotes": [
+                {
+                    "jsonmodel_type": "note_text",
+                    "content": "dimensions note, which we wouldn't have at the collection level generally, but you might see at a low-level of description.  But it's just a text note, and a multi-part note at that, at least in ASpace terminology.",
+                    "publish": true
+                }
+            ],
+            "publish": true
+        },
+        {
+            "jsonmodel_type": "note_multipart",
+            "persistent_id": "0a5e1d4add6e6581a35b786c7e26850a",
+            "type": "altformavail",
+            "subnotes": [
+                {
+                    "jsonmodel_type": "note_text",
+                    "content": "A place to store a text note about copies.  Generally at lower levels.",
+                    "publish": true
+                }
+            ],
+            "publish": true
+        },
+        {
+            "jsonmodel_type": "note_multipart",
+            "persistent_id": "13b7a6c3c8ac5724b2d8c4f423b4f970",
+            "type": "originalsloc",
+            "subnotes": [
+                {
+                    "jsonmodel_type": "note_text",
+                    "content": "A note about the location of originals.",
+                    "publish": true
+                }
+            ],
+            "publish": true
+        },
+        {
+            "jsonmodel_type": "note_multipart",
+            "persistent_id": "ccad04d5d0c6b741126e70a0a9501d8d",
+            "type": "fileplan",
+            "subnotes": [
+                {
+                    "jsonmodel_type": "note_text",
+                    "content": "Possible we could have one of these, but we don't generally use \"file  plan\" notes.  Just adding for completeness.",
+                    "publish": true
+                }
+            ],
+            "publish": true
+        },
+        {
+            "jsonmodel_type": "note_multipart",
+            "persistent_id": "cd53cbcad0592cb34359cc6c11626dfc",
+            "type": "odd",
+            "subnotes": [
+                {
+                    "jsonmodel_type": "note_text",
+                    "content": "Just a note:  these \"general\" notes are the oddest of all.  Sometimes they might be a very brief note, or they could be a really, really, really, really long form of an index / appendix. \n\nIn the PDF transformatiomn process, if \"index\" or \"appendix\" is in the Label, we treat those differently.",
+                    "publish": true
+                }
+            ],
+            "publish": true
+        },
+        {
+            "jsonmodel_type": "note_multipart",
+            "persistent_id": "9e798cc36460c03c4e5e5a885646b2e2",
+            "type": "acqinfo",
+            "subnotes": [
+                {
+                    "jsonmodel_type": "note_text",
+                    "content": "Info about provenance, almost always at the collection level.",
+                    "publish": true
+                }
+            ],
+            "publish": true
+        },
+        {
+            "jsonmodel_type": "note_index",
+            "persistent_id": "af2b48d748367836a941ac46163b940d",
+            "label": "A dreaded index",
+            "content": ["But really just another type of note that can have lists... only this time the list items might contain references and  types."],
+            "items": [
+                {
+                    "jsonmodel_type": "note_index_item",
+                    "value": "Some corporation",
+                    "type": "corporate_entity",
+                    "reference": "some (internal) link",
+                    "reference_text": "some link text"
+                }
+            ],
+            "publish": true
+        },
+        {
+            "jsonmodel_type": "note_singlepart",
+            "persistent_id": "eb3b950517af4c9ef6aec341d422f5be",
+            "type": "langmaterial",
+            "content": ["Language of materials note.  Legacy ones will often have mixed  content, like so:  <language>Spanish<\/language>, <language>German<\/language>, etc.\n\nAlso, the language model will change drastically once we upgrade to version 2.7 of ASpace."],
+            "publish": true
+        },
+        {
+            "jsonmodel_type": "note_multipart",
+            "persistent_id": "6e4b4c88b6f90968a2639753119acf1b",
+            "type": "legalstatus",
+            "subnotes": [
+                {
+                    "jsonmodel_type": "note_text",
+                    "content": "Just another text note.",
+                    "publish": true
+                }
+            ],
+            "publish": true
+        },
+        {
+            "jsonmodel_type": "note_multipart",
+            "persistent_id": "3f72718f28d0e30d87fc95ea1a3b0499",
+            "label": "Published note, but no published text",
+            "type": "legalstatus",
+            "subnotes": [
+                {
+                    "jsonmodel_type": "note_text",
+                    "content": "This text is unpublished, though, so be careful!",
+                    "publish": false
+                }
+            ],
+            "publish": true
+        },
+        {
+            "jsonmodel_type": "note_multipart",
+            "persistent_id": "82ae0580ce0e85da16056446be93081b",
+            "label": "Unpublished note, but published text (so the text isn't really published)",
+            "type": "legalstatus",
+            "subnotes": [
+                {
+                    "jsonmodel_type": "note_text",
+                    "content": "Even though I'm published, the overall note is not, so be careful!",
+                    "publish": true
+                }
+            ],
+            "publish": false
+        },
+        {
+            "jsonmodel_type": "note_singlepart",
+            "persistent_id": "14efba6628191c339cd712896ce78927",
+            "type": "materialspec",
+            "content": [
+                "Yet another note!",
+                "But a single-part one.  Phew."
+            ],
+            "publish": true
+        },
+        {
+            "jsonmodel_type": "note_multipart",
+            "persistent_id": "646019fab1d65f39dbbf437b54fc69a7",
+            "type": "otherfindaid",
+            "subnotes": [
+                {
+                    "jsonmodel_type": "note_text",
+                    "content": "A note about other finding aids, like maybe some scanned PDF that was never converted.",
+                    "publish": true
+                }
+            ],
+            "publish": true
+        },
+        {
+            "jsonmodel_type": "note_multipart",
+            "persistent_id": "80f31391beeb836760fb84b9b89db3f1",
+            "type": "phystech",
+            "subnotes": [
+                {
+                    "jsonmodel_type": "note_text",
+                    "content": "You guessed it.  Another note. Multi-part, though.",
+                    "publish": true
+                }
+            ],
+            "publish": true
+        },
+        {
+            "jsonmodel_type": "note_singlepart",
+            "persistent_id": "64ebfd6e5913010c30772f1fec5a0263",
+            "type": "physdesc",
+            "content": ["You guessed it.  Another note."],
+            "publish": true
+        },
+        {
+            "jsonmodel_type": "note_singlepart",
+            "persistent_id": "113ddfcb71494104fe548c3a1de72f62",
+            "type": "physfacet",
+            "content": ["You guessed it.  Another note."],
+            "publish": true
+        },
+        {
+            "jsonmodel_type": "note_singlepart",
+            "persistent_id": "5fae33f291cbfd9d5b2affd1afd27b54",
+            "type": "physloc",
+            "content": ["You guessed it.  Another note. \n\nGranular locaiton information will be tied to top container instances however.  "],
+            "publish": true
+        },
+        {
+            "jsonmodel_type": "note_multipart",
+            "persistent_id": "5fd199551fae16d88375406f9691ef4c",
+            "type": "prefercite",
+            "subnotes": [
+                {
+                    "jsonmodel_type": "note_text",
+                    "content": "Okay, so these notes are, like, on all of the Resource records (or should be).  Probably never attached at lower levels.",
+                    "publish": true
+                }
+            ],
+            "publish": true
+        },
+        {
+            "jsonmodel_type": "note_multipart",
+            "persistent_id": "e233cdd1629a8b23365091736526bab2",
+            "type": "processinfo",
+            "subnotes": [
+                {
+                    "jsonmodel_type": "note_text",
+                    "content": "Okay, so these notes are, like, on all of the Resource records (or should be).  Probably never attached at lower levels.  But they certainly could be.",
+                    "publish": true
+                }
+            ],
+            "publish": true
+        },
+        {
+            "jsonmodel_type": "note_multipart",
+            "persistent_id": "ea4cfb73f8eb89a71c220bedf4fc6e9d",
+            "type": "relatedmaterial",
+            "subnotes": [
+                {
+                    "jsonmodel_type": "note_text",
+                    "content": "You got it: another note!",
+                    "publish": true
+                }
+            ],
+            "publish": true
+        },
+        {
+            "jsonmodel_type": "note_multipart",
+            "persistent_id": "0764fd3c6ab88dec99d1e7460799ac52",
+            "type": "scopecontent",
+            "subnotes": [
+                {
+                    "jsonmodel_type": "note_text",
+                    "content": "A very common note, at all levels of description.  At the collection level, these will often be multiple paragraphs.\n\nAnd contain <emph render=\"bold\">mixed content<\/emph>.\n\n<blockquote>\nmaybe even a block quote???\n<\/blockquote>",
+                    "publish": true
+                }
+            ],
+            "publish": true
+        },
+        {
+            "jsonmodel_type": "note_multipart",
+            "persistent_id": "8a02ed1254c093da467defe48633b8d7",
+            "type": "separatedmaterial",
+            "subnotes": [
+                {
+                    "jsonmodel_type": "note_text",
+                    "content": "Yet another textual note... multi-part style.",
+                    "publish": true
+                }
+            ],
+            "publish": true
+        }
+    ],
+    "uri": "/repositories/17/resources/11711",
+    "repository": {"ref": "/repositories/17"},
+    "user_defined": {
+        "lock_version": 0,
+        "boolean_1": false,
+        "boolean_2": false,
+        "boolean_3": false,
+        "string_2": "VoyagerBIBID",
+        "created_by": "mc2343",
+        "last_modified_by": "mc2343",
+        "create_time": "2020-03-31T19:32:55Z",
+        "system_mtime": "2020-03-31T19:32:55Z",
+        "user_mtime": "2020-03-31T19:32:55Z",
+        "jsonmodel_type": "user_defined",
+        "repository": {"ref": "/repositories/17"}
+    },
+    "tree": {"ref": "/repositories/17/resources/11711/tree"}
+}
